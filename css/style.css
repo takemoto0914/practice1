@@ -55,11 +55,8 @@ html,body {
 body {
 	margin: 0;padding:0;
 	font-family: "M PLUS 1p", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
-	font-optical-sizing: auto;
-	font-weight: 400;
-	font-style: normal;
-	-webkit-text-size-adjust: none;
-	background: var(--primary-color);		/*背景色。css冒頭で指定しているprimary-colorを読み込みます*/
+	background: url("../images/bg1.jpg") no-repeat center center fixed;
+	background-size: cover;
 	color: var(--primary-inverse-color);	/*文字色。css冒頭で指定しているprimary-inverse-colorを読み込みます*/
 	line-height: 3;		/*行間*/
 	animation: opa1 0.2s 0.5s both;
