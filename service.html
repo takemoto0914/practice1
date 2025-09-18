@@ -77,44 +77,132 @@ TEL:0120-123-789
     <div class="menu-item">
       <img src="images/ブレンドコーヒー.jpg" alt="ブレンドコーヒー">
       <p style="font-size:20px;font-weight:bold;">ブレンドコーヒー</p>
-      <p>Short :200円<br> Tall  :300円<br>Grande:400円</p>
+      <p>Short :200円<br> Tall  :300円<br>Grande:350円</p>
       </p>
     </div>
     
     <div class="menu-item">
       <img src="images/アメリカーノ.jpg" alt="アメリカーノ">
       <p style="font-size:20px;font-weight:bold;">アメリカーノ</p>
-      <p>Short :200円<br> Tall  :300円<br>Grande:400円</p>
+      <p>Short :200円<br> Tall  :300円<br>Grande:3500円</p>
     </div>
 
     <div class="menu-item">
       <img src="images/エスプレッソ.jpg" alt="エスプレッソ">
       <p style="font-size:20px;font-weight:bold;">エスプレッソ</p>
-      <p>Short :200円<br> Tall  :300円<br>Grande:400円</p>
+      <p>Short :200円<br> Tall  :300円<br>Grande:350円</p>
     </div>
 
     <div class="menu-item">
       <img src="images/カフェラテ.jpg" alt="カフェラテ">
       <p style="font-size:20px;font-weight:bold;">カフェラテ</p>
-      <p>Short :200円<br> Tall  :300円<br>Grande:400円</p>
+      <p>Short :200円<br> Tall  :300円<br>Grande:350円</p>
     </div>
 
     <div class="menu-item">
       <img src="images/カプチーノ.jpg" alt="カプチーノ">
       <p style="font-size:20px;font-weight:bold;">カプチーノ</p>
-      <p>Short :200円<br> Tall  :300円<br>Grande:400円</p>
+      <p>Short :200円<br> Tall  :300円<br>Grande:350円</p>
+    </div>
+
+    <div class="menu-item">
+      <img src="images/カフェモカ.jpg" alt="カフェモカ">
+      <p style="font-size:20px;font-weight:bold;">カフェモカ</p>
+      <p>Short :200円<br> Tall  :300円<br>Grande:350円</p>
+    </div>
+
+    <div class="menu-item">
+      <img src="images/マキアート.jpg" alt="マキアート">
+      <p style="font-size:20px;font-weight:bold;">マキアート</p>
+      <p>Short :200円<br> Tall  :300円<br>Grande:350円</p>
+    </div>
+
+    <div class="menu-item">
+      <img src="images/カフェオレ.jpg" alt="カフェオレ">
+      <p style="font-size:20px;font-weight:bold;">カフェオレ</p>
+      <p>Short :200円<br> Tall  :300円<br>Grande:350円</p>
     </div>
 
     <div class="menu-item">
       <img src="images/アイスコーヒー.jpg" alt="アイスコーヒー">
       <p style="font-size:20px;font-weight:bold;">アイスコーヒー</p>
-      <p>Short :200円<br> Tall  :300円<br>Grande:400円</p>
+      <p>Short :200円<br> Tall  :300円<br>Grande:350円</p>
     </div>
   </div>
 
-<form action="/submit" method="post">
-    <a href="delivery.html">デリバリーへ</button>
-</form>
+<body>
+  <div class="form-container">
+    <h2><br>デリバリー</h2>
+    <p>デリバリーではお名前・電話番号・メールアドレス・住所を入力されるとデリバリーページのサイトへ送信されます。</p>
+    <img src="images/デリバリー.jpg" alt="デリバリー">
+    <form>
+      <label for="name">お名前<br></label>
+      <input type="text" id="name" name="name" placeholder="例：山田 太郎" required width="1000px">
+
+      <label for="phone"><br>電話番号<br></label>
+      <input type="tel" id="phone" name="phone" placeholder="例：090-1234-5678" required>
+
+      <label for="email"><br>メールアドレス<br></label>
+      <input type="email" id="email" name="email" placeholder="例：example@example.com" required>
+
+      <label for="address"><br>住所<br></label>
+      <input type="text" id="address" name="address" placeholder="例：東京都新宿区〇〇" required>
+
+      <button type="submit" class="submit-btn">デリバリーへ</button>
+    </form>
+  </div>
+  <div class ="mame">
+    <h2><br>コーヒー豆定期便</h2>
+    <p>コーヒー豆定期便では3つの種類の中から選んでいただき1カ月に1回定期的にお客様の元へお届けするサービスです。</p>
+    <style>
+    .photo-row {
+      display: flex;
+      justify-content: space-between; /* 左右にスペース */
+      gap: 10px; /* 写真の間隔 */
+    }
+
+    .photo-row img {
+      width: 300px; /* 幅を均等に */
+      height: 400px;
+      object-fit: cover;
+    }
+
+    .submit-btn {
+      font-size: 15px;        /* 文字サイズを大きく */
+      padding: 15px 60px;     /* 上下・左右の余白 */
+      background-color: #e2ebe4; /* 緑色の背景 */
+      color: black;           /* 文字の色 */
+      border: none;           /* 枠線なし */
+      border-radius: 8px;     /* 角を丸く */
+      cursor: pointer;        /* カーソルをポインターに */
+      transition: 0.3s;       /* ホバー時のアニメーション */
+    }
+
+    .submit-btn:hover {
+      background-color: #e2ebe4; /* ホバー時に少し濃く */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="photo-row">
+    <div class="photo-item">
+      <h3 class="caption">アラビカ</h3>
+      <img src="images/アラビカ種.jpg"alt="アラビカ種">
+      <button type="submit" class="submit-btn">購入</button>
+    </div>
+    <div class="photo-item">
+      <h3 class="caption">ロブスタ</h3>
+      <img src="images/ロブスタ種.jpg" alt="ロブスタ種">
+      <button type="submit" class="submit-btn">購入</button>
+    </div>
+    <div class="photo-item">
+      <h3 class="caption">オーガニック</h3>
+      <img src="images/オーガニック.jpg" alt="オーガニック">
+      <button type="submit" class="submit-btn">購入</button>
+    </div>
+  </div>
+</body>
 </section>
 
 

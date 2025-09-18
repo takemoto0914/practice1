@@ -440,3 +440,9 @@ footer {
 
 	}/*追加指定ここまで*/
 
+.form-container img{
+	width: 550px;
+	height: 373px;
+	padding-right: 20px;
+	float: left;
+}
