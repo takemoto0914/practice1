@@ -446,3 +446,13 @@ footer {
 	padding-right: 20px;
 	float: left;
 }
+.form-container input{
+	width: 300px;
+}
+.photo-row h3 {
+	font-size: 25px;
+	margin-left: 100px;
+}
+.photo-row button {
+	margin-left: 75px;
+}
