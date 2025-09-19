@@ -456,3 +456,10 @@ footer {
 .photo-row button {
 	margin-left: 75px;
 }
+
+.o-ga {
+	position: absolute;
+	top: 2385px;
+	left: 940px;
+	display: flex;
+}
