@@ -463,3 +463,9 @@ footer {
 	left: 940px;
 	display: flex;
 }
+
+.en {
+	position: absolute;
+	top: 900px;
+	left: 850px;
+}
